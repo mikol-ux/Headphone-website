@@ -1,26 +1,48 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+	--background: #ffffff;
+	--foreground: #171717;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+.dm-mono-light {
+	font-family: "DM Mono", monospace;
+	font-weight: 300;
+	font-style: normal;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.dm-mono-regular {
+	font-family: "DM Mono", monospace;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.dm-mono-medium {
+	font-family: "DM Mono", monospace;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.dm-mono-light-italic {
+	font-family: "DM Mono", monospace;
+	font-weight: 300;
+	font-style: italic;
+}
+
+.dm-mono-regular-italic {
+	font-family: "DM Mono", monospace;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.dm-mono-medium-italic {
+	font-family: "DM Mono", monospace;
+	font-weight: 500;
+	font-style: italic;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+	background: var(--background);
+	color: var(--foreground);
+	font-family: Arial, Helvetica, sans-serif;
 }
