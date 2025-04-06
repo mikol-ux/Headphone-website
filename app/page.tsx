@@ -1,6 +1,3 @@
-import { Main } from "next/document";
-import Image from "next/image";
-import Hero from "./sections/Hero";
 import ProcessSection from "./components/HeroComponent";
 import ScrollCoverEffect from "./components/Features";
 import Expandable from "./components/Expandable";
