@@ -4,7 +4,7 @@ export default function AirPurifierFeatures() {
 	return (
 		<section className="bg-white py-16 px-4 md:px-12 lg:px-20 mb-40">
 			{/* Top Feature Highlights */}
-			<div className="max-h-[500px] max-w-5xl grid md:grid-cols-3 gap-10 text-center mb-32 mx-auto">
+			<div className="max-h-[500px] max-w-7xl grid md:grid-cols-3 gap-10 text-center mb-32 mx-auto">
 				{[
 					{
 						title: "Support For Voice Control",
@@ -90,8 +90,8 @@ export default function AirPurifierFeatures() {
 
 			{/* Filtration Breakdown */}
 			<div className="w-full mx-auto p-3 max-w-7xl">
-				<div className="w-fit  grid grid-cols-1 md:grid-cols-2 m-auto">
-					<div className="p-4">
+				<div className="grid grid-cols-1 md:grid-cols-2 m-auto">
+					<div className="">
 						<h2 className="text-2xl md:text-4xl text-black font-bold mb-8">
 							Traps 99.97% of Particles as Small as 0.3 Microns
 							<br />
@@ -103,9 +103,9 @@ export default function AirPurifierFeatures() {
 							layer-by-layer filtration.
 						</p> */}
 						<ul className="text-2xl text-gray-900 font-extralight">
-							{["Pollen Filter", "Smoke Filter", "Pet Odours Filter"].map(
+							{["Noise Filter", "Egonomic", "Natural Grip"].map(
 								(filter, i) => (
-									<li key={i} className="mb-5 md:mb-14">
+									<li key={i} className="mb-5 md:mb-14 uppercase">
 										{filter}
 									</li>
 								)

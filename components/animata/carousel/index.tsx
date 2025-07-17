@@ -81,8 +81,8 @@ export default function Expandable() {
 	};
 
 	return (
-		<section className="flex items-center justify-center bg-white min-h-screen ">
-			<div className="slider flex flex-row w-[85vw] overflow-hidden max-[660px]:flex-col max-[660px]:h-screen max-[660px]:m-8">
+		<section className="flex items-center justify-center bg-white min-h-screen">
+			<div className="slider flex flex-row w-[80vw] overflow-hidden max-[660px]:flex-col max-[660px]:h-screen max-[660px]:m-8">
 				{data.map((d, i) => (
 					<div
 						key={i}
