@@ -17,7 +17,7 @@ const heroSections = [
 				</h1>
 				<p className="text-lg md:text-xl 2xl:text-2xl text-gray-600 max-w-2xl mx-auto md:mx-0">
 					Experience unparalleled clarity, deep bass, and active noise
-					cancellation. Let the sound take you to new heights.
+					cancellation.
 				</p>
 			</div>
 		),
@@ -32,7 +32,7 @@ const heroSections = [
 				</h1>
 				<p className="text-lg md:text-xl 2xl:text-2xl text-gray-300 max-w-2xl mx-auto md:mx-0">
 					Powered by adaptive noise cancellation, our headphones let you focus
-					on what matters—without distractions.
+					on what matters.
 				</p>
 			</div>
 		),
