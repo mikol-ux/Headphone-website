@@ -10,7 +10,7 @@ interface HerosectionProps {
 const Herosection = ({ image, children, className }: HerosectionProps) => {
 	return (
 		<section
-			className={`panel min-w-screen w-screen h-screen flex items-center justify-center ${className} max-sm:py-4`}
+			className={`panel min-w-screen w-screen h-screen flex items-center justify-center ${className}`}
 		>
 			<div className="flex flex-col md:flex-row w-full max-w-7xl">
 				<div className="md:basis-1/2 w-full">{children}</div>
