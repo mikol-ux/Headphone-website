@@ -28,7 +28,7 @@ const heroSections = [
 		children: (
 			<div className="text-center md:text-left space-y-8 px-4 sm:px-8 md:px-16">
 				<h1 className="text-5xl md:text-6xl 2xl:text-9xl font-extrabold text-white leading-tight mb-4">
-					Silence. Precision. Power.
+					Silence. Precision.
 				</h1>
 				<p className="text-lg md:text-xl 2xl:text-2xl text-gray-300 max-w-2xl mx-auto md:mx-0">
 					Powered by adaptive noise cancellation, our headphones let you focus
