@@ -1,6 +1,6 @@
 
 import React from "react";
-import Expandable from "@/components/animata/carousel";
+import Expandable from "@/app/components/animata/carousel";
 
 const Expandabe = () => {
 	return <Expandable />;
