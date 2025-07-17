@@ -20,7 +20,7 @@ const Herosection = ({ image, children, className }: HerosectionProps) => {
 						alt="Hero Image"
 						width={500}
 						height={500}
-						className="object-contain w-full h-full"
+						className="object-contain"
 					/>
 				</div>
 			</div>

@@ -1,8 +1,3 @@
-"use client";
-
-import React, { useCallback, useEffect, useRef, useState } from "react";
-import gsap from "gsap";
-
 const data = [
 	{
 		image: "/Hero/blueww.jpg",
@@ -19,7 +14,14 @@ const data = [
 ];
 
 
-export default function Expandable() {
+"use client";
+
+import React, { useCallback, useEffect, useRef, useState } from "react";
+import gsap from "gsap";
+
+
+
+export default function Live() {
 	const [currentSlide, setCurrentSlide] = useState(0);
 	const slideRef = useRef<HTMLDivElement[]>([]);
 	const intervalRef = useRef<NodeJS.Timeout | null>(null);
@@ -81,7 +83,7 @@ export default function Expandable() {
 	};
 
 	return (
-		<section className="flex items-center justify-center bg-white min-h-screen ">
+		<section className="flex items-center justify-center bg-white min-h-screen">
 			<div className="slider flex flex-row w-[85vw] overflow-hidden max-[660px]:flex-col max-[660px]:h-screen max-[660px]:m-8">
 				{data.map((d, i) => (
 					<div

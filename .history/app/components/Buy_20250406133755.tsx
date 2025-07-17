@@ -5,7 +5,7 @@ import { cn } from "@/lib/utils";
 import Image from "next/image";
 
 const product = {
-	title: "Boom 3000",
+	title: "Air Purifier Core 300",
 	price: 400,
 	originalPrice: 420,
 	description:
